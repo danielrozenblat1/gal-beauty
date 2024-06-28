@@ -1,0 +1,339 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+}
+.background{
+
+}
+.href{
+    font-family: "Assistant";
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+direction: rtl;
+cursor: pointer;
+}
+.title{
+    font-family: "Assistant";
+    font-size: 4rem;
+    margin:0 auto;
+    padding-top:2%;
+    color:white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+direction: rtl;
+}
+.subTitle{
+    font-family: "AssistantR";
+    font-size: 1.5rem;
+    width:50%;
+   
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin:2% auto;
+    text-align: center;
+direction: rtl;
+}
+.line-divider {
+    width: 1px; /* רוחב הקו */
+    height:50px; /* גובה הקו, בגובה של המרכז */
+    background-color: rgb(255, 255, 255); /* צבע הקו */
+    margin:1% auto;
+  
+}
+  .description{
+
+    font-family: "AssistantR";
+    font-size: 1.1rem;
+    width:40%;
+    color:white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+   margin:1% auto;
+    text-align: center;
+direction: rtl;
+  }
+  .center{
+    display: flex;
+    margin:2% auto;
+    justify-content: center;
+}
+@media only screen and (max-width: 350px) {
+
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        align-items: center;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 2rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    direction: rtl;
+    }
+    .subTitle{
+        font-family: "AssistantR";
+        font-size: 1rem;
+        width:90%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:3% auto;
+        text-align: center;
+    direction: rtl;
+    }
+    .description{
+
+        font-family: "AssistantR";
+        font-size: 1rem;
+        width:85%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:0 auto;
+        text-align: center;
+    direction: rtl;
+      }
+    .line-divider {
+        width: 1px; /* רוחב הקו */
+        height:50px; /* גובה הקו, בגובה של המרכז */
+        background-color: black; /* צבע הקו */
+      
+      }
+      .center{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        align-items: center;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 2.2rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    direction: rtl;
+    }
+    .description{
+
+        font-family: "AssistantR";
+        font-size: 1rem;
+        width:80%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:0 auto;
+        text-align: center;
+    direction: rtl;
+      }
+    .subTitle{
+        font-family: "AssistantR";
+        font-size: 1.1rem;
+        width:90%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:3% auto;
+        text-align: center;
+    direction: rtl;
+    }
+    .line-divider {
+        width: 1px; /* רוחב הקו */
+        height:50px; /* גובה הקו, בגובה של המרכז */
+        background-color: black; /* צבע הקו */
+      
+      }
+      .center{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        align-items: center;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    direction: rtl;
+    }
+    .description{
+
+        font-family: "AssistantR";
+        font-size: 1rem;
+        width:75%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:0 auto;
+        text-align: center;
+    direction: rtl;
+      }
+    .subTitle{
+        font-family: "AssistantR";
+        font-size: 1.2rem;
+        width:90%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:3% auto;
+        text-align: center;
+    direction: rtl;
+    }
+    .line-divider {
+        width: 1px; /* רוחב הקו */
+        height:50px; /* גובה הקו, בגובה של המרכז */
+        background-color: black; /* צבע הקו */
+      
+      }
+      .center{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 550px) and (max-width: 650px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        align-items: center;
+    }
+    .description{
+
+        font-family: "AssistantR";
+        font-size: 1rem;
+        width:70%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:0 auto;
+        text-align: center;
+    direction: rtl;
+      }
+    .title{
+        font-family: "Assistant";
+        font-size: 2.7rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    direction: rtl;
+    }
+    .subTitle{
+        font-family: "AssistantR";
+        font-size: 1.25rem;
+        width:90%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:3% auto;
+        text-align: center;
+    direction: rtl;
+    }
+    .line-divider {
+        width: 1px; /* רוחב הקו */
+        height:50px; /* גובה הקו, בגובה של המרכז */
+        background-color: black; /* צבע הקו */
+      
+      }
+      .center{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 650px) and (max-width: 850px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        align-items: center;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 3rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    direction: rtl;
+    }
+    .description{
+
+        font-family: "AssistantR";
+        font-size: 1rem;
+        width:60%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:0 auto;
+        text-align: center;
+    direction: rtl;
+      }
+    .subTitle{
+        font-family: "AssistantR";
+        font-size: 1.25rem;
+        width:90%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:3% auto;
+        text-align: center;
+    direction: rtl;
+    }
+    .line-divider {
+        width: 1px; /* רוחב הקו */
+        height:50px; /* גובה הקו, בגובה של המרכז */
+        background-color: black; /* צבע הקו */
+      
+      }
+      .center{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 850px) and (max-width: 1050px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        align-items: center;
+    }
+    .description{
+
+        font-family: "AssistantR";
+        font-size: 1rem;
+        width:50%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:0 auto;
+        text-align: center;
+    direction: rtl;
+      }
+    .title{
+        font-family: "Assistant";
+        font-size: 3.2rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    direction: rtl;
+    }
+    .subTitle{
+        font-family: "AssistantR";
+        font-size: 1.4rem;
+        width:90%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:3% auto;
+        text-align: center;
+    direction: rtl;
+    }
+    .line-divider {
+        width: 1px; /* רוחב הקו */
+        height:100px; /* גובה הקו, בגובה של המרכז */
+        background-color: black; /* צבע הקו */
+      
+      }
+      .center{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+}

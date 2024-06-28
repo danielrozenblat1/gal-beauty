@@ -1,0 +1,81 @@
+.container {
+    width: 400px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.1); /* שינוי לרקע עם שקיפות */
+    backdrop-filter: blur(50px);
+    border-radius: 15px; /* שינוי לרדיוס יותר עגול */
+    display: flex;
+    box-shadow: 0 0 15px 3px rgba(255, 255, 255, 0.2); /* שינוי צל להוספת יוקרה */
+    flex-direction: column;
+    margin: 2% auto;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* הוספת גבול עדין */
+}
+
+.title {
+    font-size: 2.2rem; /* קיצוץ בגודל הגופן */
+    font-family: "Assistant";
+    text-align: center;
+    margin: 2% auto;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    direction: rtl;
+}
+
+.subTitle {
+    font-size: 1.2rem; /* קיצוץ בגודל הגופן */
+    font-family: "Assistant";
+    text-align: center;
+    margin: 2% auto;
+    width: 90%;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    direction: rtl;
+}
+
+.description {
+    font-size: 1.1rem; /* קיצוץ בגודל הגופן */
+    font-family: "AssistantR";
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.2);
+    padding-top: 3%;
+    color: white;
+    margin: 0 auto;
+    direction: rtl;
+    width:90%; /* הרחבת הרוחב */
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.3); /* שינוי צל לעדינות */
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 2% auto;
+}
+
+.image {
+    width: 100%;
+    object-fit: contain;
+}
+.icon{
+height:70px;
+width:70px;
+border-radius: 50%;
+
+box-shadow: 0 0 5px 1px rgb(126, 126, 126);
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:20px auto;
+    width:100%;
+}
