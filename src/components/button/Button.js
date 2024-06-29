@@ -3,8 +3,8 @@ const Button=(props)=>{
 
 
 return <>
-<button >
-    <span>{props.text}</span>
+<button className={styles.button} >
+    <span className={styles.span}>{props.text}</span>
 </button>
 </>
 
