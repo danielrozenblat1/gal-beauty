@@ -6,6 +6,8 @@ import ThirdScreen from './screens/ThirdScreen';
 import ForthScreen from './screens/ForthScreen';
 import NavBar from './components/NavBar/NavBar';
 import { useEffect, useState } from 'react';
+import Recommends from './components/recommends/Recommends';
+import ByMe from './components/ByMe/ByMe';
 
 function App() {
 
@@ -38,6 +40,9 @@ function App() {
   <SecondScreen/>
   <ThirdScreen/>
   <ForthScreen/>
+  <Recommends/>
+
+  <ByMe/>
   </div>
   </>
 }

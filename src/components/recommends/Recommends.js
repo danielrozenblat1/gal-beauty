@@ -1,19 +1,8 @@
 import styles from "./Recommends.module.css"
-import result1 from "../../images/גל יאקובצאק המלצה 1.png"
-import result2 from "../../images/גל יאקובצאק המלצה 2.png"
-import result3 from "../../images/גל יאקובצאק המלצה 3.png"
-import result4 from "../../images/גל יאקובצאק המלצה 4.png"
-import result5 from "../../images/גל יאקובצאק המלצה 5.png"
-import result6 from "../../images/גל יאקובצאק המלצה 6.png"
-import result7 from "../../images/גל יאקובצאק המלצה 7.png"
-import result8 from "../../images/גל יאקובצאק המלצה 8.png"
-import result9 from "../../images/גל יאקובצאק המלצה 9.png"
-import result10 from "../../images/גל יאקובצאק המלצה 10.png"
-import result11 from  "../../images/גל יאקובצאק המלצה 11.png"
-import result12 from  "../../images/גל יאקובצאק המלצה 12.png"
-import result13 from  "../../images/גל יאקובצאק המלצה 13.png"
-import result14 from  "../../images/גל יאקובצאק המלצה 14.png"
-import result15 from  "../../images/גל יאקובצאק המלצה 15.png"
+import result1 from "../../images/גל לפני אחרי 1.png"
+import result2 from "../../images/גל לפני אחרי 2.png"
+import result3 from "../../images/גל לפני אחרי 3.png"
+
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -28,9 +17,7 @@ const Recommends=()=>{
    
         dots:false,
         
-        slidesToShow: window.innerWidth < 450 ? 1 :
-                 
-                      window.innerWidth <= 1050 ? 2 : 4,
+        slidesToShow:1,
         slidesToScroll:1,
                      
       };
@@ -41,70 +28,22 @@ const Recommends=()=>{
         },
         {
           type: 'image',
-          src: result11,
-        },
-        {
-          type: 'image',
-          src: result12,
-        },
-        {
-          type: 'image',
-          src: result13,
-        },
-        {
-          type: 'image',
-          src: result14,
-        },
-        {
-          type: 'image',
-          src: result15,
-        },
-        {
-          type: 'image',
-          src: result8,
-        },
-        {
-          type: 'image',
-          src: result10,
-        },
-        {
-          type: 'image',
-          src: result9,
-        },
-        {
-          type: 'image',
           src: result2,
         },
         {
           type: 'image',
           src: result3,
         },
-        {
-          type: 'image',
-          src: result4,
-        }, 
-        
-        {
-          type: 'image',
-          src: result5,
-        },
-          {
-            type: 'image',
-            src: result6,
-          },
-          {
-            type: 'image',
-            src: result7,
-          },
+   
         ];  
 return <>
-<div className={styles.title} id="לקוחות ממליצות">את יכולה להצטרף אליהן..</div>
+<div className={styles.title} id="לקוחות ממליצות">זו יכולה להיות את!</div>
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>
           {content.map((item, index) => (
             <div key={index} itemscope itemtype="http://schema.org/Review">
               {item.type === 'image' && (
-                <img src={item.src} className={styles.image1} alt={`גל יאקובצאק לקוחה ממליצה מספר ${index + 1}`} itemprop="image"/>
+                <img src={item.src} className={styles.image1} alt={`גל יאקובצאק לפני אחרי מספר ${index + 1}`} itemprop="image"/>
               )}
               {item.type === 'video' && (
                 <video
@@ -126,7 +65,7 @@ return <>
         </Slider>
       </div>
 
-<Button text="גל אני רוצה לשמוע עוד"/>
+<div className={styles.center}><Button text="גל אני רוצה לשמוע עוד"/></div>
 </>
 
 

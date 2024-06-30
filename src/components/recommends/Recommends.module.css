@@ -1,6 +1,6 @@
 .sliderContainer {
 
-    width:80%;
+    width:40%;
     margin: auto;
     height:auto;
     justify-content: center;
@@ -33,7 +33,7 @@
     direction: rtl;
     width:65%;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    color:black;
+    color:rgb(255, 255, 255);
     justify-content: center;
     text-align: center;
     margin:2% auto;
@@ -44,7 +44,7 @@
     font-size: 25px;
     direction: rtl;
     width:65%;
-    color:black;
+    color:white;
     justify-content: center;
     text-align: center;
     margin: 2% auto;
@@ -58,12 +58,17 @@
     margin:5% auto;
     object-fit: cover;
 }
+.center{
+margin:2% auto;
+  display: flex;
+  justify-content: center;
+}
 
 @media only screen and (max-width: 350px) {
 
     .sliderContainer {
 
-        width: 70%;
+        width: 80%;
         margin: auto;
 position: relative;
 height: auto;
@@ -98,7 +103,7 @@ height: auto;
         font-size: 2rem;
         direction: rtl;
         width:85%;
-        color:black;
+        color:white;
       
         justify-content: center;
         text-align: center;
@@ -110,7 +115,7 @@ height: auto;
         font-size: 18px;
         direction: rtl;
         width:90%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -128,7 +133,7 @@ height: auto;
 @media only screen and (min-width: 350px) and (max-width: 450px) {
 
     .sliderContainer {
-        width: 55%;
+        width: 75%;
         margin: auto;
         height: auto;
         
@@ -162,7 +167,7 @@ height: auto;
         font-size: 2rem;
         direction: rtl;
         width:75%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin:2% auto;
@@ -173,7 +178,7 @@ height: auto;
         font-size: 20px;
         direction: rtl;
         width:90%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -192,7 +197,7 @@ height: auto;
 
     .sliderContainer {
 
-        width: 90%;
+        width: 70%;
         margin: auto;
     
         justify-content: center;
@@ -225,7 +230,7 @@ height: auto;
         font-size: 2.5rem;
         direction: rtl;
         width:85%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin:2% auto;
@@ -236,7 +241,7 @@ height: auto;
         font-size: 20px;
         direction: rtl;
         width:90%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -288,7 +293,7 @@ height: auto;
         font-size:2.5rem;
         direction: rtl;
         width:85%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin:2% auto;
@@ -299,7 +304,7 @@ height: auto;
         font-size: 22px;
         direction: rtl;
         width:80%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -351,7 +356,7 @@ height: auto;
         font-size: 2.5rem;
         direction: rtl;
         width:85%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin:2% auto;
@@ -362,7 +367,7 @@ height: auto;
         font-size: 22px;
         direction: rtl;
         width:80%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -414,7 +419,7 @@ height: auto;
         font-size: 2.8rem;
         direction: rtl;
         width:75%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin:2% auto;
@@ -425,7 +430,7 @@ height: auto;
         font-size: 22px;
         direction: rtl;
         width:80%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -477,7 +482,7 @@ height: auto;
         font-size:3rem;
         direction: rtl;
         width:85%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin:2% auto;
@@ -488,7 +493,7 @@ height: auto;
         font-size: 22px;
         direction: rtl;
         width:80%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -540,7 +545,7 @@ height: auto;
         font-size: 3rem;
         direction: rtl;
         width:75%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin:2% auto;
@@ -551,7 +556,7 @@ height: auto;
         font-size: 22px;
         direction: rtl;
         width:80%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -570,7 +575,7 @@ height: auto;
 
     .sliderContainer {
 
-        width: 85%;
+        width: 45%;
         margin: auto;
     
         justify-content: center;
@@ -603,7 +608,7 @@ height: auto;
         font-size: 3.5rem;
         direction: rtl;
         width:75%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin:2% auto;
@@ -614,7 +619,7 @@ height: auto;
         font-size: 22px;
         direction: rtl;
         width:75%;
-        color:black;
+        color:white;
         justify-content: center;
         text-align: center;
         margin: 3% auto;
