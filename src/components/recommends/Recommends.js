@@ -2,6 +2,9 @@ import styles from "./Recommends.module.css"
 import result1 from "../../images/גל לפני אחרי 1.png"
 import result2 from "../../images/גל לפני אחרי 2.png"
 import result3 from "../../images/גל לפני אחרי 3.png"
+import result4 from "../../images/גל ביוטי לקוחות ממליצות.png"
+import result5 from "../../images/גל ביוטי לקוחות ממליצות 2.png"
+import result6 from "../../images/גל ביוטי לקוחות ממליצות 3.png"
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -28,11 +31,25 @@ const Recommends=()=>{
         },
         {
           type: 'image',
+          src: result4,
+        },
+        {
+          type: 'image',
           src: result2,
         },
         {
           type: 'image',
+          src: result5,
+        },
+        {
+          type: 'image',
           src: result3,
+        },
+      
+    
+        {
+          type: 'image',
+          src: result6,
         },
    
         ];  
