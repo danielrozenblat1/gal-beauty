@@ -79,6 +79,8 @@ height: 80px;
     font-size: 1.5rem;
     color: #fff; /* Changed to white */
     z-index: 1001;
+    display: flex;
+    align-items: center;
   }
   
   .menuItems {
