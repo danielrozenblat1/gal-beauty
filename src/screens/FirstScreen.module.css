@@ -7,6 +7,10 @@
     text-shadow: 1px 1px 7px rgba(255, 255, 255, 0.4);
     direction:rtl
 }
+.bold{
+    display: inline;
+    color:rgb(255, 0, 132)
+}
 
 .description{
     font-size:1.5rem;
@@ -20,11 +24,16 @@
     direction: rtl;
     width:40%;
 }
-
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 .center{
     display: flex;
     margin:0 auto;
-    width:30%;
+    width:35%;
     justify-content: center;
 }
 

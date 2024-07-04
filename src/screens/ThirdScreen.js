@@ -60,7 +60,7 @@ const ThirdScreen=()=>{
   },[])
 
     return <> 
-    <div className={styles.intro}>זמן להכיר...</div>
+    <div className={styles.intro} id="מי אני">זמן להכיר...</div>
     <div className={styles.container}>
    
     <h1 className={styles.title}>גל יאקובצאק</h1>

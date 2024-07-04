@@ -8,6 +8,7 @@ import NavBar from './components/NavBar/NavBar';
 import { useEffect, useState } from 'react';
 import Recommends from './components/recommends/Recommends';
 import ByMe from './components/ByMe/ByMe';
+import NavBarNew from './components/NewNav/NavBarNew';
 
 function App() {
 
@@ -35,7 +36,9 @@ function App() {
 
   return<>
   <div class="app">
-  <NavBar/>
+  {/* <NavBar/> */}
+
+    <NavBarNew/>
   <FirstScreen scrolled={scrolled}/>
   <SecondScreen/>
   <ThirdScreen/>
