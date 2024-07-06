@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 import Recommends from './components/recommends/Recommends';
 import ByMe from './components/ByMe/ByMe';
 import NavBarNew from './components/NewNav/NavBarNew';
+import BasicAccordion from './components/Akordion/Akordion';
 
 function App() {
 
@@ -44,7 +45,7 @@ function App() {
   <ThirdScreen/>
   <ForthScreen/>
   <Recommends/>
-
+<BasicAccordion/>
   <ByMe/>
   </div>
   </>
