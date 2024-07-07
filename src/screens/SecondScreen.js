@@ -37,7 +37,7 @@ const SecondScreen=()=>{
         במידה ויש צורך נבצע מעבר נוסף</div>
         <div className={styles.description}>לאחר חודש וחצי מהטיפול הראשון מגיעים לטיפול נוסף במידת הצורך לבצע תיקונים או הדגשת הצבע.</div>
        <div className={styles.center}><img className={styles.image} src={galMix} alt="גל ביוטי לפני אחרי"/></div>
-        <div className={styles.center}><Button text="גל, אני רוצה לשמוע ממך עוד"/></div>
+        <div className={styles.center}><Button text="צרי איתי קשר בווצאפ"/></div>
         
 
       </div>

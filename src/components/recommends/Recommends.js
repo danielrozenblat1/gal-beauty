@@ -82,7 +82,7 @@ return <>
         </Slider>
       </div>
 
-<div className={styles.center}><Button text="גל אני רוצה לשמוע עוד"/></div>
+<div className={styles.center}><Button text="צרי איתי קשר בווצאפ"/></div>
 </>
 
 

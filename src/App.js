@@ -10,6 +10,7 @@ import Recommends from './components/recommends/Recommends';
 import ByMe from './components/ByMe/ByMe';
 import NavBarNew from './components/NewNav/NavBarNew';
 import BasicAccordion from './components/Akordion/Akordion';
+import FormScreen from './components/form/FormScreen';
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
   <ThirdScreen/>
   <ForthScreen/>
   <Recommends/>
+  <FormScreen/>
 <BasicAccordion/>
   <ByMe/>
   </div>
